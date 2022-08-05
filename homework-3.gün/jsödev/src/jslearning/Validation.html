@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Enter a number</p>
+        <input id=" numberBox" type="text" value="abc" readonly>
+        <!-- <input id=" numberBox" type="text" pattern="[A-Za]{3}" maxlength="3"> -->
+        <button onclick="validate()">Send</button>
+        <p id="demo"></p>
+        <!-- <form novalidate>
+
+        </form> -->
+        <script>
+            function validate()
+            {
+                var numberEntered = document.getElementById("numberBox");
+                if (numberEntered.checkValidity() == false)
+                {
+                    document.getElementById("demo").innerHTML = numberEntered.validationMessage;
+
+                }
+                else
+                {
+                    document.getElementById("demo").innerHTML = "Input Ok";
+
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+.footer{
+   
+    background-color: #134361;
+    height: 125px;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    padding: 39px 0 42px 10px;
+ 
+
+}
+.footer ul {
+    vertical-align: middle;
+    display: flex; 
+    justify-content: space-around;
+    margin: 0 100px;
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.footer ul li a{
+    color: rgba(226, 225, 225, 0.836);
+    text-decoration: none;
+    text-align: center;
+
+
+}

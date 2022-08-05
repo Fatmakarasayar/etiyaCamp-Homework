@@ -1,0 +1,86 @@
+.card{
+    width: 360px;
+    height: 390px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    position: relative;
+  
+    border-radius: 9px;
+    border: 1px solid #8eb4cb;
+    box-shadow: 0px 1px #8eb4cb;
+    
+}
+
+.card:hover{
+    box-shadow: 0px 0px 0px 1px #4686ad;
+    border: 1px solid #4686ad;
+    transition: all linear 0.1s;
+}
+
+.content-img {
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+    height: 200px;
+    
+    
+}
+.kod{
+    color: #342E2E;
+    line-height: 25px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding: 16px 16px 4px 16px;
+    font-weight: 800;
+    font-size: 18px;
+    max-height: 65px;
+}
+.content p{
+    padding: 5px 16px;
+    min-height: 0;
+    font-weight: 200;
+    font-size: 14px;
+    max-height: 35px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  
+}
+.teacher{
+    display: flex;
+  
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content:space-between;
+}
+.img-name{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    
+}
+.img-name img{
+    border-radius: 50%;
+}
+.img-name p{
+    margin-left: 5px;
+}
+.container{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.free{
+    color: #16425e;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 120px;
+    padding-top: 5px;
+}
